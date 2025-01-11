@@ -3,89 +3,49 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 body {
-    margin: 0;                 /* Убираем внешние отступы */
-    padding: 0;
-    font-family: 'Roboto', sans-serif; /* Используйте шрифт Roboto, если он доступен */
-    background-color: #f4f4f4; /* Фоновый цвет страницы */
-    color: #333;               /* Цвет основного текста */
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    background-image: url('https://zastavki.gas-kvas.com/uploads/posts/2024-09/zastavki-gas-kvas-com-8p6r-p-zastavki-na-rabochii-stol-programmista-2.jpg'); /* Ваша ссылка на изображение */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-/* Настройка фонового изображения */
-body {
-    background-image: url("https://zastavki.gas-kvas.com/uploads/posts/2024-09/zastavki-gas-kvas-com-8p6r-p-zastavki-na-rabochii-stol-programmista-2.jpg"); /* Путь к изображению */
-    background-size: cover;      /* Растягиваем изображение на весь экран */
-    background-position: center; /* Центруем изображение */
-    background-repeat: no-repeat; /* Запрещаем повторение изображения */
-    background-attachment: fixed; /* Фиксируем изображение при прокрутке */
+.main {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85); /* Полупрозрачный белый фон */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Еле заметная тень */
 }
 
 /* Заголовок */
 .header {
     text-align: center;
     padding: 20px;
-    background-color: #007bff;
-    color: white;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.75); /* Полупрозрачный белый фон */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25); /* Более выраженная тень */
 }
 
-/* Навигация */
-.navigation ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 10px 0;
-    background-color: #eaeaea;
-}
-
-.navigation a {
-    text-decoration: none;
-    color: #333;
-    transition: color 0.3s ease-in-out;
-}
-
-.navigation a:hover {
-    color: #007bff;
+.header h1 {
+    font-size: 36px;
+    font-style: italic;
+    letter-spacing: 1px;
 }
 
 /* Секции */
 .section {
-    padding: 40px;
-    min-height: 300px;
+    margin-bottom: 40px;
 }
 
-.about {
-    background-color: #fff;
-}
-
-.courses {
-    background-color: #ddd;
-}
-
-.contacts {
-    background-color: #fff;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-}
-
-.course-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.course-item {
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.course-item h3 {
+.section h2 {
     margin-bottom: 10px;
 }
 
@@ -93,6 +53,6 @@ body {
 .footer {
     text-align: center;
     padding: 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.75); /* Полупрозрачный белый фон */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25); /* Более выраженная тень */
 }
