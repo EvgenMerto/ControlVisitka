@@ -1,22 +1,24 @@
-// Функция для последовательного появления текста
-function typeText(elementId, text, index, interval) {
-    if (index < text.length) {
-        document.getElementById(elementId).innerHTML += text.charAt(index);
-        index++;
-        setTimeout(function () { typeText(elementId, text, index, interval); }, interval);
-    }
-}
-
-// Функция для анимации появления секций
-function showSections() {
+document.addEventListener("DOMContentLoaded", function() {
+    // Находим все секции с классом "section"
     const sections = document.querySelectorAll(".section");
-    sections.forEach((section) => {
-        section.classList.add(section.className.includes("left") ? "slide-from-left" : "slide-from-right");
+    
+    // Проходим по каждой секции и добавляем соответствующий класс
+    sections.forEach((section, index) => {
+        if (index % 2 === 0) {
+            section.classList.add("slide-from-left");
+        } else {
+            section.classList.add("slide-from-right");
+        }
     });
-}
 
-// Вызываем функции после загрузки страницы
-window.onload = function() {
-    typeText("welcome-message", "Добро пожаловать на мою страницу!", 0, 50);
-    showSections();
-};
+    // Находим все подменю с классом "subsection"
+    const subsections = document.querySelectorAll(".subsection");
+    subsections.forEach(subsection => {
+        subsection.addEventListener("mouseenter", () => {
+            subsection.classList.add("active"); // Добавляем класс active при наведении
+        });
+        subsection.addEventListener("mouseleave", () => {
+            subsection.classList.remove("active"); // Убираем класс active при уходе курсора
+        });
+    });
+});
