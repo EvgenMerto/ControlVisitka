@@ -21,7 +21,7 @@ body {
     max-width: 80%;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.85); /* Полупрозрачный белый фон */
+    background-color: transparent; /* Прозрачность вместо белого фона */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Еле заметная тень */
 }
 
@@ -82,6 +82,6 @@ body {
 .footer {
     text-align: center;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.75); /* Полупрозрачный белый фон */
+    background-color: transparent; /* Прозрачный фон */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.25); /* Более выраженная тень */
 }
