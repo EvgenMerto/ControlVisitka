@@ -5,11 +5,19 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-}
+ body {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+  
+  .accent {
+    color: #007BFF;
+  }
+  
+  .button {
+    background-color: #007BFF;
+    color: #FFFFFF;
+  }
 
 /* Заголовок */
 .header {
