@@ -6,8 +6,6 @@
 }
 
  body {
-    background-color: #FFFFFF;
-    color: #000000;
     background-image: url("для сайта.jpg"); /* замените путь на реальный путь к изображению */
     background-repeat: no-repeat;
     background-size: cover;
