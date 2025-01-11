@@ -20,6 +20,8 @@ body {
     background-position: center; /* Центруем изображение */
     background-repeat: no-repeat; /* Запрещаем повторение изображения */
     background-attachment: fixed; /* Фиксируем изображение при прокрутке */
+}
+
 /* Заголовок */
 .header {
     text-align: center;
