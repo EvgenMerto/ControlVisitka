@@ -10,7 +10,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-    background-image: url('https://zastavki.gas-kvas.com/uploads/posts/2024-09/zastavki-gas-kvas-com-8p6r-p-zastavki-na-rabochii-stol-programmista-2.jpg'); /* Ваша ссылка на изображение */
+    background-image: url('https://example.com/your-image-url-here.jpg'); /* Ваша ссылка на изображение */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ body {
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.75); /* Полупрозрачный белый фон */
+    background-color: rgba(255, 255, 0.75); /* Полупрозрачный белый фон */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.25); /* Более выраженная тень */
 }
 
