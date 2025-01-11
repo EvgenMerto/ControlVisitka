@@ -6,11 +6,20 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    margin: 0;                 /* Убираем внешние отступы */
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Используйте шрифт Roboto, если он доступен */
+    background-color: #f4f4f4; /* Фоновый цвет страницы */
+    color: #333;               /* Цвет основного текста */
 }
 
+/* Настройка фонового изображения */
+body {
+    background-image: url("https://zastavki.gas-kvas.com/uploads/posts/2024-09/zastavki-gas-kvas-com-8p6r-p-zastavki-na-rabochii-stol-programmista-2.jpg"); /* Путь к изображению */
+    background-size: cover;      /* Растягиваем изображение на весь экран */
+    background-position: center; /* Центруем изображение */
+    background-repeat: no-repeat; /* Запрещаем повторение изображения */
+    background-attachment: fixed; /* Фиксируем изображение при прокрутке */
 /* Заголовок */
 .header {
     text-align: center;
