@@ -6,7 +6,7 @@
 }
 
  body {
-    background-image: url("для сайта.jpg"); /* замените путь на реальный путь к изображению */
+    background-image: url("pesen.jpg"); /* замените путь на реальный путь к изображению */
     background-repeat: no-repeat;
     background-size: cover;
   }
