@@ -10,6 +10,20 @@
     color: #000000;
   }
   
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('path/to/your/image.jpg'); /* замените путь на реальный путь к изображению */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px); /* степень размытия фона */
+    z-index: -1; /* помещаем фон за все остальные элементы */
+}
+
   .accent {
     color: #007BFF;
   }
