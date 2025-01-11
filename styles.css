@@ -10,7 +10,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-    background-image: url('https://zastavki.gas-kvas.com/uploads/posts/2024-09/zastavki-gas-kvas-com-8p6r-p-zastavki-na-rabochii-stol-programmista-2.jpg'); /* Ваша ссылка на изображение */
+    background-image: url('https://example.com/your-image-url-here.jpg'); /* Ваша ссылка на изображение */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@ body {
     max-width: 80%;
     margin: 0 auto;
     padding: 20px;
-    background-color: transparent; /* Прозрачный белый фон */
+    background-color: transparent; /* Прозрачность вместо белого фона */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Еле заметная тень */
 }
 
@@ -97,177 +97,4 @@ body {
     padding: 20px;
     background-color: transparent; /* Прозрачный фон */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.25); /* Более выраженная тень */
-}
-
-/* Вспомогательные стили */
-.subsection:hover {
-    background-color: #fff; /* Белый фон при наведении */
-    color: #333; /* Черный текст при наведении */
-}
-
-/* Анимация выезда из-за края */
-.section.slide-from-left {
-    animation-delay(500ms);
-    animation-duration: 500ms;
-    animation-timing-function: linearEaseOut(500ms);
-    animation-startingStatus: running;
-    animation-endingStatus: completed;
-    animation-paddingStart: 0;
-    animation-paddingEnd: 100%;
-    animation-easing: cubic-bezier(0.38, 0.96, 0.66, 0.29, 0.21);
-}
-
-.section.slide-from-right {
-    animation-delay(500ms);
-    animation-duration: 500ms;
-    animation-timingFunction: linearEaseIn(500ms);
-    animation-startingStatus: running;
-    animation-endingStatus: completed;
-    animation-paddingStart: 0;
-    animation-paddingEnd: 100%;
-    animation-easing: cubic-bezier(0.38, 0.96, 0.66, 0.29, 0.21);
-}
-
-/* Секция с курсами */
-.courses > div > div:first-child > div:nth-child(1) {
-    animation-delay(1000ms);
-    animation-duration: 1500ms;
-    animation-timingFunction: linearEaseOut(1500ms);
-    animation-startingStatus: running;
-    animation-endingStatus: completed;
-    animation-paddingStart: 0;
-    animation-paddingEnd: 100%;
-    animation-easing: linearEaseOut(1500ms);
-}
-
-/* Первая подсказка на hover */
-.courses > div > div:first-child > div:nthchild(1) > div:nthChild(1) {
-    animation-delay(2000ms);
-    animation-duration: 2000ms;
-    animation-timingFunction: linearEaseOut(2000ms);
-    animation-startingStatus: running;
-    animation-endingStatus: completed;
-    animation-paddingStart: 0;
-    animation-paddingEnd: 100%;
-    animation-easing: linearEaseOut(2000ms);
-}
-
-/* Вторая подсказка на hover */
-.courses > div > div:nthchild(1) > div:nthChild(2) {
-    animation-delay(2000ms);
-    animation-duration: 2000ms;
-    animation-timingFunction: linearEaseOut(2000ms);
-    animation-startingStatus: running;
-    animation-endingStatus: completed;
-    animation-paddingStart: 0;
-    animation-paddingEnd: 100%;
-    animation-easing: linearEaseOut(2000ms);
-}
-
-/* Третья подсказка на hover */
-.courses > div:nthchild(1) > div:nthChild(2) > div:nthChild(2) {
-    animation-delay(2000ms);
-    animation-duration: 2000ms;
-    animation-timingFunction: linearEaseOut(2000ms);
-    animation-startingStatus: running;
-    animation-endingStatus: completed;
-    animation-paddingStart: 0;
-    animation-paddingEnd: 100%;
-    animation-easing: linearEaseOut(2000ms);
-}
-
-/* Четвертая подсказка на hover */
-.courses > div:nthchild(1) > div:nthChild(2) > div:nthChild(3) {
-    animation-delay(2000ms);
-    animation-duration: 2000ms;
-    animation-timingFunction: linearEaseOut(2000ms);
-    animation-startingStatus: running;
-    animation-endingStatus: completed;
-    animation-paddingStart: 0;
-    animation-paddingEnd: 100%;
-    animation-easing: linearEaseOut(2000ms);
-}
-
-/* Пятая подсказка на hover */
-.courses > div:nthchild(1) > div:nthChild(3) > div:nthChild(3) {
-    animation-delay(2000ms);
-    animation-duration: 2000ms;
-    animation-timingFunction: linearEaseOut(2000ms);
-    animation-startingStatus: running;
-    animation-endingStatus: completed;
-    animation-paddingStart: 0;
-    animation-paddingEnd: 100%;
-    animation-easing: linearEaseOut(2000ms);
-}
-
-/* Шестая подсказка на hover */
-.courses > div:nthchild(1) > div:nthChild(3) > div:nthChild(3) {
-    animation-delay(2000ms);
-    animation-duration: 2000ms;
-    animation-timingFunction: linearEaseOut(2000ms);
-    animation-startingStatus: running;
-    animation-endingStatus: completed;
-    animation-paddingStart: 0;
-    animation-paddingEnd: 100%;
-    animation-easing: linearEaseOut(2000ms);
-}
-
-/* Седьмая подсказка на hover */
-.courses > div:nthchild(1) > div:nthChild(3) > div:nthChild(3) {
-    animation-delay(2000ms);
-    animation-duration: 2000ms;
-    animation-timingFunction: linearEaseOut(2000ms);
-    animation-startingStatus: running;
-    animation-endingStatus: completed;
-    animation-paddingStart: 0;
-    animation-paddingEnd: 100%;
-    animation-easing: linearEaseOut(2000ms);
-}
-
-/* Восьмая подсказка на hover */
-.courses > div:nthchild(1) > div:nthChild(3) > div:nthChild(3) {
-    animation-delay(2000ms);
-    animation-duration: 2000ms;
-    animation-timingFunction: linearEaseOut(2000ms);
-    animation-startingStatus: running;
-    animation-endingStatus: completed;
-    animation-paddingStart: 0;
-    animation-paddingEnd: 100%;
-    animation-easing: linearEaseOut(2000ms);
-}
-
-/* Девятая подсказка на hover */
-.courses > div:nthchild(1) > div:nthChild(3) > div:nthChild(3) {
-    animation-delay(2000ms);
-    animation-duration: 2000ms;
-    animation-timingFunction: linearEaseOut(2000ms);
-    animation-startingStatus: running;
-    animation-endingStatus: completed;
-    animation-paddingStart: 0;
-    animation-paddingEnd: 100%;
-    animation-easing: linearEaseOut(2000ms);
-}
-
-/* Десятая подсказка на hover */
-.courses > div:nthchild(1) > div:nthChild(3) > div:nthChild(3) {
-    animation-delay(2000ms);
-    animation-duration: 2000ms;
-    animation-timingFunction: linearEaseOut(2000ms);
-    animation-startingStatus: running;
-    animation-endingStatus: completed;
-    animation-paddingStart: 0;
-    animation-paddingEnd: 100%;
-    animation-easing: linearEaseOut(2000ms);
-}
-
-/* Одиннадцатая подсказка на hover */
-.courses > div:nthchild(1) > div:nthChild(3) > div:nthChild(3) {
-    animation-delay(2000ms);
-    animation-duration: 2000ms;
-    animation-timingFunction: linearEaseOut(2000ms);
-    animation-startingStatus: running;
-    animation-endingStatus: completed;
-    animation-paddingStart: 0;
-    animation-paddingEnd: 100%;
-    animation-easing: linearEaseOut(2000ms);
 }
