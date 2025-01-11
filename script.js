@@ -7,16 +7,16 @@ function typeText(elementId, text, index, interval) {
     }
 }
 
-// Функция для плавного появления секций
-function slideUp(sectionClass) {
-    var sections = document.querySelectorAll(`.${sectionClass}`);
-    for (var i = 0; i < sections.length; i++) {
-        sections[i].classList.add("slide-up");
-    }
+// Функция для анимации появления секций
+function showSections() {
+    const sections = document.querySelectorAll(".section");
+    sections.forEach((section) => {
+        section.classList.add(section.className.includes("left") ? "slide-from-left" : "slide-from-right");
+    });
 }
 
 // Вызываем функции после загрузки страницы
 window.onload = function() {
     typeText("welcome-message", "Добро пожаловать на мою страницу!", 0, 50);
-    slideUp("section");
+    showSections();
 };
