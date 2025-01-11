@@ -16,7 +16,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url('D:\Kurs3\popov'); /* замените путь на реальный путь к изображению */
+    background-image: url("для сайта.jpg"); /* замените путь на реальный путь к изображению */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
