@@ -1,94 +1,87 @@
-/* Общие стили для тела документа */
-body {
-    margin: 0;                 /* Убираем внешние отступы */
+/* Общие стили */
+* {
+    margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif; /* Используйте шрифт Roboto, если он доступен */
-    background-color: #f4f4f4; /* Фоновый цвет страницы */
-    color: #333;               /* Цвет основного текста */
+    box-sizing: border-box;
 }
 
-/* Настройка фонового изображения */
 body {
-    background-image: url("https://img.freepik.com/premium-photo/abstract-glowing-purple-coding-programming-background-with-mock-up-place-big-data-code-concept-3d-rendering_670147-2276.jpg?semt=ais_hybrid"); /* Путь к изображению */
-    background-size: cover;      /* Растягиваем изображение на весь экран */
-    background-position: center; /* Центруем изображение */
-    background-repeat: no-repeat; /* Запрещаем повторение изображения */
-    background-attachment: fixed; /* Фиксируем изображение при прокрутке */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Стили для контейнера с контентом */
-.container {
+/* Заголовок */
+.header {
+    text-align: center;
     padding: 20px;
-    max-width: 80%;             /* Ограничиваем максимальную ширину контейнера */
-    margin: 0 auto;             /* Центруем контейнер по горизонтали */
-    background-color: rgba(255, 255, 255, 0.95); /* Полупрозрачный белый фон для улучшенной читаемости */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);     /* Легкая тень вокруг контейнера */
+    background-color: #007bff;
+    color: white;
 }
 
-/* Заголовки */
-h1, h2, h3, h4, h5, h6 {
-    color: #222; /* Темнее основной текст */
-    margin-top: 0; /* Убираем верхний отступ у первого заголовка */
-}
-
-/* Параграфы */
-p {
-    line-height: 1.6; /* Увеличенное межстрочное расстояние для улучшения читаемости */
-    margin-bottom: 16px; /* Нижний отступ после параграфа */
-}
-
-/* Навигационное меню */
-.navbar {
-    background-color: #333; /* Темный фон для навигационного меню */
-    padding: 10px 0;
+/* Навигация */
+.navigation ul {
+    list-style-type: none;
     display: flex;
-    justify-content: center; /* Центруем содержимое меню */
-    align-items: center; /* Выравниваем элементы по вертикали */
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0;
+    background-color: #eaeaea;
 }
 
-.navbar a {
-    color: #fff; /* Светлый текст для ссылок */
-    text-decoration: none; /* Убираем подчеркивание у ссылок */
-    margin-right: 20px; /* Отступ справа между ссылками */
-    transition: color 0.3s ease; /* Анимация при наведении */
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease-in-out;
 }
 
-.navbar a:hover {
-    color: #007bff; /* Изменяем цвет ссылки при наведении */
+.navigation a:hover {
+    color: #007bff;
 }
 
-/* Основные секции */
+/* Секции */
 .section {
-    padding: 40px 0; /* Верхний и нижний отступы для секций */
+    padding: 40px;
+    min-height: 300px;
 }
 
-/* Секция "О нас" */
 .about {
-    background-color: #f9f9f9; /* Светлый фон для секции */
+    background-color: #fff;
 }
 
-/* Секция "Проекты" */
-.projects {
-    background-color: #eaeaea; /* Немного темнее фон для секции */
+.courses {
+    background-color: #ddd;
 }
 
-/* Секция "Контакты" */
 .contacts {
-    background-color: #f9f9f9; /* Возвращаемся к светлому фону */
+    background-color: #fff;
 }
 
-/* Медиа-запросы для адаптации к разным размерам экрана */
-@media (max-width: 768px) {
-    .container {
-        max-width: 90%; /* Увеличиваем ширину контейнера на маленьких экранах */
-    }
+.content h2 {
+    margin-bottom: 20px;
+}
 
-    .navbar {
-        flex-direction: column; /* Меняем направление меню на вертикальное */
-        align-items: stretch; /* Располагаем элементы на всю ширину */
-    }
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
 
-    .navbar a {
-        margin: 10px 0; /* Отступы сверху и снизу между ссылками */
-    }
+.course-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-item h3 {
+    margin-bottom: 10px;
+}
+
+/* Подвал */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
 }
